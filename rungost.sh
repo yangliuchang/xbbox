@@ -189,7 +189,6 @@ function read_d_ip() {
       echo -e "注意: 落地机开启自定义tls证书，务必填写${Red_font_prefix}域名${Font_color_suffix}"
     fi
     read -p "请输入: " flag_c
-  fi
 }
 function read_d_port() {
     if [[ "$flag_a" == "peer"* ]]; then
