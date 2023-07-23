@@ -82,7 +82,7 @@ install_docker() {
 
 run_gost() {
     # 下载脚本
-    curl -fsSL https://raw.githubusercontent.com/yangliuchang/xbbox/main/xbbox.sh -o rungost.sh
+    curl -fsSL https://raw.githubusercontent.com/yangliuchang/xbbox/main/rungost.sh -o rungost.sh
 
     # 添加可执行权限并运行脚本
     chmod +x rungost.sh
